@@ -41,7 +41,7 @@ const ProductionManager = () => {
       if (error) {
         if (error.code === 'PGRST205') {
           setProductions([]);
-          toast.error('Productions table is missing. Run the Supabase migration first.');
+          toast.error('Productions are not available yet.');
           return;
         }
         throw error;

@@ -24,7 +24,7 @@ const MessagesManager = () => {
       if (error) {
         if (error.code === 'PGRST205') {
           setMessages([]);
-          toast.error('Contact messages table is missing. Run the Supabase migration first.');
+          toast.error('Messages are not available yet.');
           return;
         }
         throw error;

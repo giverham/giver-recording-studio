@@ -158,7 +158,7 @@ const PublicBeatsPage = () => {
     if (isPlaying) {
       playback.pause();
     } else {
-      // Build playlist context (Supabase Storage URLs)
+      // Build playlist context from public media URLs
       const playlist = filteredSongs
         .filter((s) => getAudioPath(s))
         .map(s => {

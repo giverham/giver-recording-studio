@@ -180,7 +180,7 @@ const AdminDashboard = () => {
 
   const updateSubmissionStatus = async (submissionId, status) => {
     if (!submissionsTable) {
-      toast.error('Submission feature is not configured in Supabase yet.');
+      toast.error('Submissions are not available yet.');
       return false;
     }
 
@@ -294,7 +294,7 @@ const AdminDashboard = () => {
 
   const handleDeleteSubmission = async (id) => {
     if (!submissionsTable) {
-      toast.error('Submission feature is not configured in Supabase yet.');
+      toast.error('Submissions are not available yet.');
       return;
     }
 
@@ -334,7 +334,7 @@ const AdminDashboard = () => {
         <CardContent className="space-y-6">
           {!isAvailable && (
             <div className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-3 text-sm text-amber-300">
-              Founder profile feature is currently unavailable because no founder profile table exists in Supabase.
+              Founder profile is not available yet.
             </div>
           )}
           <div className="flex gap-6">
@@ -601,7 +601,7 @@ const AdminDashboard = () => {
                 </div>
                 {!submissionsTable && (
                   <p className="text-amber-300 text-sm mt-2">
-                    Submissions table is not available in this Supabase project yet.
+                    Submissions are not available yet.
                   </p>
                 )}
               </div>

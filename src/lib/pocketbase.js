@@ -1,7 +1,5 @@
 /**
- * PocketBase legacy module removed.
- * This app uses Supabase only.
+ * Legacy module removed.
  */
 export const __removed = true;
 export default {};
-

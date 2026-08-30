@@ -4,5 +4,6 @@ dist/
 .env.*
 .tmp/
 *.log
+*.sql
 buildlog*.txt
 lintlog*.txt

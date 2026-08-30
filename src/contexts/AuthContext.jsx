@@ -5,7 +5,7 @@ import { supabase } from '@/lib/supabase.js';
 
 const AuthContext = createContext(null);
 
-  // Admin access is based on Supabase session + admin_users table.
+  // Admin access is based on the signed-in account and the admin_users table.
   // Grant access if a matching row exists for either:
   // - id == user.id
   // - email == user.email

@@ -43,7 +43,7 @@ const CategoryImageUpload = ({ isOpen, onClose, category, onSave, isLoading }) =
       const formData = new FormData();
       formData.append('categoryImage', file);
 
-      // Upsert category image in Supabase.
+      // Save category image.
       // Assumes category row exists in `categories` with column `name` and `categoryImage` storing the storage path.
 
       const { data: existing, error: existingErr } = await supabase
