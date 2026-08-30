@@ -49,7 +49,7 @@ All application code is secure and deployed. No further code changes needed.
 
 ### Step 1: Open Supabase SQL Editor
 1. Go to https://app.supabase.com
-2. Select project: `wxhdyqunjbpohthtbslu`
+2. Select project: `YOUR_SUPABASE_PROJECT`
 3. Click "SQL Editor" in left sidebar
 4. Click "New Query"
 

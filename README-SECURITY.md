@@ -208,7 +208,7 @@ Complete security hardening has been applied to the application. All admin opera
 **EXECUTE SQL MIGRATION** (Highest Priority)
 
 1. Go to: https://app.supabase.com
-2. Select project: wxhdyqunjbpohthtbslu  
+2. Select project: YOUR_SUPABASE_PROJECT  
 3. Click: SQL Editor
 4. Click: New Query
 5. Copy & paste: supabase-security-hardening.sql

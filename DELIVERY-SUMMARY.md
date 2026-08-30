@@ -250,7 +250,7 @@ if (error?.code === 'PGRST205') {
 
 ### Step 1: Execute SQL (Now - 1 minute)
 1. Go to https://app.supabase.com
-2. Select project: wxhdyqunjbpohthtbslu
+2. Select project: YOUR_SUPABASE_PROJECT
 3. SQL Editor → New Query
 4. Copy supabase-security-hardening.sql
 5. Click Run

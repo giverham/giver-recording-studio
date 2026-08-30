@@ -69,8 +69,8 @@ create table if not exists public.featured_items (
   created_at timestamptz default now()
 );
 
--- Insert admin user
+-- Insert admin user (set this in Supabase; do not commit a real inbox)
 insert into public.admin_users (email)
-values ('hassanadelajagiver@gmail.com')
+values ('admin@example.com')
 on conflict (email) do nothing;
 

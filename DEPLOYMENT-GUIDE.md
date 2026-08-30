@@ -55,7 +55,7 @@ The RLS (Row-Level Security) policies need to be updated to restrict write opera
 
 1. Open Supabase SQL Editor
    - Go to: https://app.supabase.com
-   - Select project: wxhdyqunjbpohthtbslu
+   - Select project: YOUR_SUPABASE_PROJECT
    - Navigate to SQL Editor tab
 
 2. Create new query

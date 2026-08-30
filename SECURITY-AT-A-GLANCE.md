@@ -298,7 +298,7 @@ README-SECURITY.md (index)
 ### Execute SQL Migration NOW (1 minute)
 
 1. Go to https://app.supabase.com
-2. Select project: wxhdyqunjbpohthtbslu
+2. Select project: YOUR_SUPABASE_PROJECT
 3. Click: SQL Editor → New Query
 4. Copy & paste: supabase-security-hardening.sql
 5. Click: Run

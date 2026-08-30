@@ -430,7 +430,7 @@ All security hardening requirements have been implemented, tested, and validated
 
 **Execute SQL Migration**:
 1. Open https://app.supabase.com
-2. Select project wxhdyqunjbpohthtbslu
+2. Select project YOUR_SUPABASE_PROJECT
 3. Go to SQL Editor
 4. Copy & paste supabase-security-hardening.sql
 5. Click Run
